@@ -26,21 +26,6 @@ CREATE TABLE `categoria` (
 
 
 --
--- Estructura de tabla para la tabla `prodporsolicitud`
---
-
-
-CREATE TABLE `prodporsolicitud` (
-  `cantidad` int(11) NOT NULL,
-  `productoID` int(11) NOT NULL,
-  `solicitudID` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-
--- --------------------------------------------------------
-
-
---
 -- Estructura de tabla para la tabla `producto`
 --
 
@@ -90,21 +75,6 @@ CREATE TABLE `rol` (
 
 
 --
--- Estructura de tabla para la tabla `solicitudregalo`
---
-
-
-CREATE TABLE `solicitudregalo` (
-  `solicitudID` int(11) NOT NULL,
-  `fecha` date NOT NULL,
-  `vendedorID` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-
--- --------------------------------------------------------
-
-
---
 -- Estructura de tabla para la tabla `usuario`
 --
 
@@ -122,6 +92,40 @@ CREATE TABLE `usuario` (
   `provinciaID` int(11) NOT NULL,
   `rolID` int(11) NOT NULL,
   `categoriaID` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+-- --------------------------------------------------------
+
+
+--
+-- Estructura de tabla para la tabla `ventas`
+--
+
+
+CREATE TABLE `ventas` (
+  `ventaID` int(11) NOT NULL,
+  `tipo_comprobante` varchar(50) NOT NULL,
+  `num_comprobante` varchar(50) NOT NULL,
+  `fecha` date NOT NULL,
+  `estado` varchar(50) NOT NULL,
+  `usuarioID` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `detalleventas`
+--
+
+
+CREATE TABLE `detalleventas` (
+  `detalle_ventaID` int(30) NOT NULL,
+  `cantidad` int NOT NULL,
+  `precio` decimal NOT NULL,
+  `productoID` int(11) NOT NULL,
+  `ventaID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
