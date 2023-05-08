@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2023-05-08T03:44:07.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="BH87QDDhSN5kxRDKmVih" version="21.2.9" type="device">
+  <diagram name="Página-1" id="tAT6q1Gu-IkLBjeDMVhO">
+    <mxGraphModel dx="1327" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="291" pageHeight="413" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_f6GT98Pr7P9BPEgnkZO-1" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_f6GT98Pr7P9BPEgnkZO-4" value="Vendedor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="226" y="308" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_f6GT98Pr7P9BPEgnkZO-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="216" y="338" as="sourcePoint" />
+            <mxPoint x="136" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_f6GT98Pr7P9BPEgnkZO-9" value="Publicar productos con precios y stock" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="36" y="300" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="_f6GT98Pr7P9BPEgnkZO-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="_f6GT98Pr7P9BPEgnkZO-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="80" as="sourcePoint" />
+            <mxPoint x="140" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_f6GT98Pr7P9BPEgnkZO-11" value="Ver productos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="10" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_f6GT98Pr7P9BPEgnkZO-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_f6GT98Pr7P9BPEgnkZO-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="90" as="sourcePoint" />
+            <mxPoint x="170" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_f6GT98Pr7P9BPEgnkZO-13" value="Agregar al carrito de compras" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="100" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_f6GT98Pr7P9BPEgnkZO-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_f6GT98Pr7P9BPEgnkZO-13" target="_f6GT98Pr7P9BPEgnkZO-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="170" as="sourcePoint" />
+            <mxPoint x="170" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_f6GT98Pr7P9BPEgnkZO-15" value="Realizar el pago" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="180" width="90" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
