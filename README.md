@@ -14,8 +14,6 @@
 <br></br>
 ## Integrantes  👩‍💻👨🏼‍💻
 
-- [Alvarenga, Analia ](https://github.com/rastalunarl)
-
 - [Bartoli, Giuliano ](https://github.com/BGiuliano)
 
 - [Bellon, Federico Fabián](https://github.com/fedevricobellon)
@@ -25,8 +23,6 @@
 - [González Antoniazzi, Juan Diego](https://github.com/JDGA1997)
 
 - [Gutierrez, Emma](https://github.com/Emygut)
-
-- [Romanzini, Alicia Beatriz](https://github.com/AliciaRomanzini)
 
 
 <br></br>
